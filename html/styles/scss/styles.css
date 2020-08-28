@@ -1,0 +1,159 @@
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.items {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.center {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.space {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0%;
+  scroll-behavior: smooth;
+  overflow: scroll;
+}
+
+.container {
+  background: url(/media/1.png) center no-repeat;
+  max-width: 100%;
+  /*height: 1084px;*/
+  background-size: cover;
+  display: block;
+  margin: auto;
+}
+
+nav {
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+  padding-top: 16px;
+}
+
+.logo {
+  padding: 0px 0px 0px 50px;
+  width: 8%;
+}
+
+.menu {
+  text-align: center;
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.menu li {
+  margin: 0 15px 0 15px;
+}
+
+.social {
+  padding: 0 50px 0 0;
+}
+
+.social .social-BTN {
+  margin: 0 5px 0 5px;
+  position: relative;
+  font-size: 20px;
+  color: white;
+}
+
+.titulo {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0 200px 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.titulo .p1 {
+  font-size: 30px;
+  font-style: italic;
+  color: #FF6700;
+  font-weight: 300;
+  margin: 10px 0 10px 0;
+}
+
+.titulo h1 {
+  margin: 20px 0 30px 0;
+  font-size: 80px;
+  font-weight: 600;
+  color: white;
+}
+
+.titulo .txt-1 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 300;
+  color: lightgrey;
+}
+
+.US {
+  max-width: 100%;
+  height: 1200px;
+  position: relative;
+}
+
+.US .service {
+  padding: 80px 100px 50px 150px;
+}
+
+.US .Be {
+  width: 50%;
+  padding: 25px 0;
+}
+
+.US .Be .p-be {
+  margin: 5px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  color: #3B78BC;
+}
+
+.US .Be .be-1 {
+  margin: 10px 0 0 5px;
+  width: 50%;
+  height: 40px;
+  background: white;
+  border-radius: 5px;
+  border-color: #3B78BC;
+  border-width: 2px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.US .help {
+  margin-left: 15px;
+  padding-bottom: 50px;
+  float: right;
+}
+/*# sourceMappingURL=styles.css.map */
