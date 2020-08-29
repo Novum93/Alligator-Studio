@@ -121,12 +121,12 @@ nav {
 }
 
 .US .service {
-  padding: 80px 100px 50px 150px;
+  padding: 80px 100px 50px 230px;
 }
 
 .US .Be {
   width: 50%;
-  padding: 25px 0;
+  padding: 25px 25px;
 }
 
 .US .Be .p-be {
@@ -140,20 +140,33 @@ nav {
 
 .US .Be .be-1 {
   margin: 10px 0 0 5px;
-  width: 50%;
+  width: 60%;
   height: 40px;
   background: white;
   border-radius: 5px;
   border-color: #3B78BC;
-  border-width: 2px;
+  border-width: 1,5px;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
 
 .US .help {
-  margin-left: 15px;
-  padding-bottom: 50px;
+  padding: 0 0 50px 10px;
   float: right;
+}
+
+.US .help h2 {
+  margin: 0 0 10px 0;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.US .help .p2 {
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #696969;
 }
 /*# sourceMappingURL=styles.css.map */
