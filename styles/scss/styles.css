@@ -116,12 +116,67 @@ nav {
 
 .US {
   max-width: 100%;
-  height: 1200px;
   position: relative;
 }
 
+.US .botones {
+  position: relative;
+  padding: 100px 100px 0 100px;
+}
+
+.US .brain {
+  position: relative;
+  width: 20%;
+  height: 250px;
+  border-radius: 50%;
+  margin: 80px 50px;
+  background: transparent;
+  border-width: 3px;
+  border-color: #88B2E1;
+}
+
+.US .brain i {
+  position: relative;
+  font-size: 100px;
+  color: #88B2E1;
+}
+
+.US .hand {
+  position: relative;
+  width: 20%;
+  height: 250px;
+  border-radius: 50%;
+  margin: 80px 50px;
+  background: transparent;
+  border-width: 3px;
+  border-color: #88B2E1;
+}
+
+.US .hand i {
+  position: relative;
+  font-size: 100px;
+  color: #88B2E1;
+}
+
+.US .pen {
+  position: relative;
+  width: 20%;
+  height: 250px;
+  border-radius: 50%;
+  margin: 80px 50px;
+  background: transparent;
+  border-width: 3px;
+  border-color: #88B2E1;
+}
+
+.US .pen i {
+  position: relative;
+  font-size: 100px;
+  color: #88B2E1;
+}
+
 .US .service {
-  padding: 80px 100px 50px 230px;
+  padding: 0px 100px 50px 100px;
 }
 
 .US .Be {
@@ -168,5 +223,16 @@ nav {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
   color: #696969;
+}
+
+.work {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.work .fondo {
+  width: 100%;
+  height: 50%;
 }
 /*# sourceMappingURL=styles.css.map */

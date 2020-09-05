@@ -100,11 +100,62 @@ nav{
 }
 .US{
     max-width: 100%;
-    height: 1200px;
     position: relative;
+    .botones{
+        position: relative;
+        padding: 100px 100px 0 100px;
+    }
+    
+    .brain{
+        position: relative;
+        width: 20%;
+        height: 250px;
+        border-radius: 50%;
+        margin: 80px 50px;
+        background: transparent;
+        border-width: 3px;
+        border-color: #88B2E1;
+        i{
+            position: relative;
+            font-size: 100px;
+            color: #88B2E1;
+        }
+    }
+    .hand{
+        position: relative;
+        width: 20%;
+        height: 250px;
+        border-radius: 50%;
+        margin: 80px 50px;
+        background: transparent;
+        border-width: 3px;
+        border-color: #88B2E1;
+        i{
+            position: relative;
+            font-size: 100px;
+            color: #88B2E1;
+        }
+    }
+    .pen{
+        position: relative;
+        width: 20%;
+        height: 250px;
+        border-radius: 50%;
+        margin: 80px 50px;
+        background: transparent;
+        border-width: 3px;
+        border-color: #88B2E1;
+        i{
+            position: relative;
+            font-size: 100px;
+            color: #88B2E1;
+        }
+    }
+
+
 
     .service{
-        padding: 80px 100px 50px 230px ;
+        padding: 0px 100px 50px 100px ;
     }
     
     .Be{
@@ -148,5 +199,14 @@ nav{
 
 
         }
+    }
+}
+.work{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    .fondo{
+        width: 100%;
+        height: 50%;
     }
 }
