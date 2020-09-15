@@ -176,7 +176,7 @@ nav {
 }
 
 .US .service {
-  padding: 0px 100px 50px 100px;
+  padding: 0px 100px 50px 200px;
 }
 
 .US .Be {
@@ -225,14 +225,40 @@ nav {
   color: #696969;
 }
 
-.work {
+.cards {
+  margin: 100px 0 0 0;
   width: 100%;
   position: relative;
-  margin: 0 auto;
+  background-image: url(/media/2.png);
+  background-position: center;
 }
 
-.work .fondo {
-  width: 100%;
-  height: 50%;
+.cards .card {
+  margin: 0 100px;
+  text-align: center;
+  padding: 60px 0 60px 0;
+  font-size: 50px;
+  color: #3B78BC;
+}
+
+.cards .card h3 {
+  margin: 16px;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.cards .card ul {
+  text-align: start;
+  list-style: none;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  padding: 20px 0 0 0;
+}
+
+.cards .card ul hr {
+  color: lightgray;
+  margin: 15px 0 15px 0;
 }
 /*# sourceMappingURL=styles.css.map */
