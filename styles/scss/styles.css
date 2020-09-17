@@ -34,7 +34,7 @@ body {
   margin: 0 auto;
   padding: 0%;
   scroll-behavior: smooth;
-  overflow: scroll;
+  overflow-x: hidden;
 }
 
 .container {
@@ -53,30 +53,35 @@ nav {
   padding-top: 16px;
 }
 
-.logo {
+nav .logo {
   padding: 0px 0px 0px 50px;
   width: 8%;
 }
 
-.menu {
+nav .menu {
   text-align: center;
   list-style: none;
   font-family: 'Raleway', sans-serif;
-  color: white;
   font-size: 20px;
   margin: 0 auto;
   position: relative;
+  padding-top: 30px;
 }
 
-.menu li {
+nav .menu li {
   margin: 0 15px 0 15px;
 }
 
-.social {
+nav .menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .social {
   padding: 0 50px 0 0;
 }
 
-.social .social-BTN {
+nav .social .social-BTN {
   margin: 0 5px 0 5px;
   position: relative;
   font-size: 20px;
@@ -117,17 +122,18 @@ nav {
 .US {
   max-width: 100%;
   position: relative;
+  padding: 0 0 50px 0;
 }
 
 .US .botones {
   position: relative;
-  padding: 100px 100px 0 100px;
+  padding: 0px 50px 0px 50px;
 }
 
-.US .brain {
+.US .botones .brain {
   position: relative;
   width: 20%;
-  height: 250px;
+  height: 220px;
   border-radius: 50%;
   margin: 80px 50px;
   background: transparent;
@@ -135,16 +141,16 @@ nav {
   border-color: #88B2E1;
 }
 
-.US .brain i {
+.US .botones .brain i {
   position: relative;
   font-size: 100px;
   color: #88B2E1;
 }
 
-.US .hand {
+.US .botones .hand {
   position: relative;
   width: 20%;
-  height: 250px;
+  height: 220px;
   border-radius: 50%;
   margin: 80px 50px;
   background: transparent;
@@ -152,16 +158,16 @@ nav {
   border-color: #88B2E1;
 }
 
-.US .hand i {
+.US .botones .hand i {
   position: relative;
   font-size: 100px;
   color: #88B2E1;
 }
 
-.US .pen {
+.US .botones .pen {
   position: relative;
   width: 20%;
-  height: 250px;
+  height: 220px;
   border-radius: 50%;
   margin: 80px 50px;
   background: transparent;
@@ -169,14 +175,14 @@ nav {
   border-color: #88B2E1;
 }
 
-.US .pen i {
+.US .botones .pen i {
   position: relative;
   font-size: 100px;
   color: #88B2E1;
 }
 
 .US .service {
-  padding: 0px 100px 50px 200px;
+  padding: 0px 200px 50px 200px;
 }
 
 .US .Be {
@@ -194,16 +200,18 @@ nav {
 }
 
 .US .Be .be-1 {
-  margin: 10px 0 0 5px;
+  margin: 16px 0 0 5px;
   width: 60%;
   height: 40px;
   background: white;
   border-radius: 5px;
-  border-color: #3B78BC;
+  border-color: #FF6700;
   border-width: 1,5px;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  -webkit-box-shadow: 0px 10px 40px -7px #7090B0;
+          box-shadow: 0px 10px 40px -7px #7090B0;
 }
 
 .US .help {
@@ -226,7 +234,7 @@ nav {
 }
 
 .cards {
-  margin: 100px 0 0 0;
+  margin: 0 auto;
   width: 100%;
   position: relative;
   background-image: url(/media/2.png);
@@ -260,5 +268,45 @@ nav {
 .cards .card ul hr {
   color: lightgray;
   margin: 15px 0 15px 0;
+}
+
+.metodo {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 100px 50px 0 50px;
+}
+
+.metodo .foto3 {
+  width: 60%;
+}
+
+.metodo .mtd {
+  width: 50%;
+}
+
+.metodo .titu {
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  color: #3B78BC;
+}
+
+.metodo .Our {
+  margin: 0 auto;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 18px;
+  color: #696969;
+  padding-top: 10px;
+}
+
+.metodo .pasos {
+  list-style: square;
+  margin: 0 auto;
+  padding: 20px 0 0 30px;
+  font-size: 30px;
+  color: #2e2e2e;
 }
 /*# sourceMappingURL=styles.css.map */
