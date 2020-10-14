@@ -30,6 +30,11 @@
       justify-content: space-around;
 }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
   padding: 0%;
@@ -53,11 +58,6 @@ nav {
   padding-top: 16px;
 }
 
-nav .logo {
-  padding: 0px 0px 0px 50px;
-  width: 8%;
-}
-
 nav .menu {
   text-align: center;
   list-style: none;
@@ -65,11 +65,11 @@ nav .menu {
   font-size: 20px;
   margin: 0 auto;
   position: relative;
-  padding-top: 30px;
+  padding: 50px;
 }
 
 nav .menu li {
-  margin: 0 15px 0 15px;
+  margin: 0 20px;
 }
 
 nav .menu li a {
@@ -78,7 +78,7 @@ nav .menu li a {
 }
 
 nav .social {
-  padding: 0 50px 0 0;
+  padding: 0;
 }
 
 nav .social .social-BTN {
@@ -101,19 +101,21 @@ nav .social .social-BTN {
   font-size: 30px;
   font-style: italic;
   color: #FF6700;
-  font-weight: 300;
+  font-weight: 100;
   margin: 10px 0 10px 0;
 }
 
 .titulo h1 {
-  margin: 20px 0 30px 0;
-  font-size: 80px;
-  font-weight: 600;
+  margin: 30px 30px;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 120%;
   color: white;
 }
 
 .titulo .txt-1 {
   font-size: 20px;
+  line-height: 140%;
   font-style: italic;
   font-weight: 300;
   color: lightgrey;
@@ -122,18 +124,18 @@ nav .social .social-BTN {
 .US {
   max-width: 100%;
   position: relative;
-  padding: 0 0 50px 0;
+  padding: 50px 0 200px 0;
 }
 
 .US .botones {
   position: relative;
-  padding: 0px 50px 0px 50px;
+  padding: 50px;
 }
 
 .US .botones .brain {
   position: relative;
   width: 20%;
-  height: 220px;
+  height: 300px;
   border-radius: 50%;
   margin: 80px 50px;
   background: transparent;
@@ -149,8 +151,8 @@ nav .social .social-BTN {
 
 .US .botones .hand {
   position: relative;
-  width: 20%;
-  height: 220px;
+  width: 18%;
+  height: 300px;
   border-radius: 50%;
   margin: 80px 50px;
   background: transparent;
@@ -166,8 +168,8 @@ nav .social .social-BTN {
 
 .US .botones .pen {
   position: relative;
-  width: 20%;
-  height: 220px;
+  width: 18%;
+  height: 300px;
   border-radius: 50%;
   margin: 80px 50px;
   background: transparent;
@@ -181,55 +183,52 @@ nav .social .social-BTN {
   color: #88B2E1;
 }
 
-.US .service {
-  padding: 0px 200px 50px 200px;
+.US .service .Be {
+  padding: 0 0 0 80px;
 }
 
-.US .Be {
-  width: 50%;
-  padding: 25px 25px;
-}
-
-.US .Be .p-be {
+.US .service .Be .p-be {
   margin: 5px;
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 1;
+  font-size: 50px;
+  line-height: 120%;
   color: #3B78BC;
 }
 
-.US .Be .be-1 {
+.US .service .Be .be-1 {
   margin: 16px 0 0 5px;
-  width: 60%;
+  width: 50%;
   height: 40px;
   background: white;
   border-radius: 5px;
   border-color: #FF6700;
-  border-width: 1,5px;
-  font-size: 16px;
+  border-width: 2.5px;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
+  font-weight: bolder;
+  color: #383838;
   -webkit-box-shadow: 0px 10px 40px -7px #7090B0;
           box-shadow: 0px 10px 40px -7px #7090B0;
 }
 
-.US .help {
-  padding: 0 0 50px 10px;
-  float: right;
+.US .service .help {
+  width: 50%;
+  padding: 0 0 0 80px;
 }
 
-.US .help h2 {
+.US .service .help h2 {
   margin: 0 0 10px 0;
   font-family: 'Oswald', sans-serif;
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 40px;
+  font-weight: 100;
 }
 
-.US .help .p2 {
+.US .service .help .p2 {
   margin: 0 auto;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 140%;
   color: #696969;
 }
 
@@ -259,9 +258,10 @@ nav .social .social-BTN {
 .cards .card ul {
   text-align: start;
   list-style: none;
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 700;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: lightgray;
   padding: 20px 0 0 0;
 }
 
@@ -274,15 +274,16 @@ nav .social .social-BTN {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
-  padding: 100px 50px 0 50px;
+  padding: 150px 200px;
 }
 
 .metodo .foto3 {
-  width: 60%;
+  width: 100%;
+  text-align: center;
 }
 
 .metodo .mtd {
-  width: 50%;
+  width: 100%;
 }
 
 .metodo .titu {
@@ -298,8 +299,9 @@ nav .social .social-BTN {
   margin: 0 auto;
   font-family: 'Raleway', 'sans-serif';
   font-size: 18px;
+  line-height: 140%;
   color: #696969;
-  padding-top: 10px;
+  padding: 10px 0px;
 }
 
 .metodo .pasos {
@@ -307,6 +309,7 @@ nav .social .social-BTN {
   margin: 0 auto;
   padding: 20px 0 0 30px;
   font-size: 30px;
+  line-height: 120%;
   color: #2e2e2e;
 }
 /*# sourceMappingURL=styles.css.map */

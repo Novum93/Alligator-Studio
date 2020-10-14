@@ -15,16 +15,11 @@
     justify-content: space-around;
 }
 
+*{
+    box-sizing: border-box;
+}
 $family-1:'Raleway', sans-serif;
 $family-2: 'Oswald', sans-serif;
-
-$breakpoint-Mobile:360px;
-
-$breakpoint-Tablet:800px;
-
-$breakpoint-Desk:1280px;
-
-$breakpoint-Led:1400px;
 
 body{
     margin: 0 auto;
@@ -44,11 +39,7 @@ nav{
     width: 100%;
     position: relative;
     margin: 0px auto;
-    padding-top: 16px; 
-    .logo{
-        padding: 0px 0px 0px 50px;
-        width: 8%;
-    }
+    padding-top: 16px;
     .menu{
         text-align: center;
         list-style: none;
@@ -56,9 +47,9 @@ nav{
         font-size: 20px;
         margin: 0 auto;
         position: relative;
-        padding-top: 30px;
+        padding: 50px;
         li{
-            margin: 0 15px 0 15px;
+            margin: 0 20px;
             a{
                 text-decoration: none;
                 color: white;
@@ -66,7 +57,7 @@ nav{
         }
     }
     .social{
-        padding: 0 50px 0 0;
+        padding: 0;
         .social-BTN{
             margin: 0 5px 0 5px;
             position: relative;
@@ -86,17 +77,19 @@ nav{
         font-size: 30px;
         font-style: italic;
         color: #FF6700;
-        font-weight: 300;
+        font-weight: 100;
         margin: 10px 0 10px 0;
     }
     h1{
-        margin: 20px 0 30px 0;
-        font-size: 80px;
-        font-weight: 600;
+        margin: 30px 30px;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 120%;
         color: white;
     }
     .txt-1{
         font-size: 20px;
+        line-height: 140%;
         font-style: italic;
         font-weight: 300;
         color: lightgrey;
@@ -105,14 +98,14 @@ nav{
 .US{
     max-width: 100%;
     position: relative;
-    padding: 0 0 50px 0;
+    padding: 50px 0 200px 0;
     .botones{
         position: relative;
-        padding: 0px 50px 0px 50px;
+        padding: 50px;
         .brain{
             position: relative;
             width: 20%;
-            height: 220px;
+            height: 300px;
             border-radius: 50%;
             margin: 80px 50px;
             background: transparent;
@@ -126,8 +119,8 @@ nav{
         }
         .hand{
             position: relative;
-            width: 20%;
-            height: 220px;
+            width: 18%;
+            height: 300px;
             border-radius: 50%;
             margin: 80px 50px;
             background: transparent;
@@ -141,8 +134,8 @@ nav{
         }
         .pen{
             position: relative;
-            width: 20%;
-            height: 220px;
+            width: 18%;
+            height: 300px;
             border-radius: 50%;
             margin: 80px 50px;
             background: transparent;
@@ -155,52 +148,55 @@ nav{
             }
         }
     }
-    .service{
-        padding: 0px 200px 50px 200px ;
-    }
-    .Be{
-        width: 50%;
-        padding: 25px 25px;
-        .p-be{
-            margin:5px;
-            font-family: 'Oswald', sans-serif;
-            font-weight: 700;
-            font-size: 40px;
-            line-height: 1;
-            color: #3B78BC;
+    .service {
+        .Be{
+            padding: 0 0 0 80px;
+            .p-be{
+                margin:5px;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 700;
+                font-size: 50px;
+                line-height: 120%;
+                color: #3B78BC;
+            }
+            .be-1{
+                margin: 16px 0 0 5px;
+                width: 50%;
+                height: 40px;
+                background: white;
+                border-radius: 5px;
+                border-color:#FF6700;
+                border-width: 2.5px;
+                font-size: 20px;
+                font-family: 'Raleway', sans-serif;
+                font-weight: bolder;
+                color: rgb(56, 56, 56);
+                box-shadow: 0px 10px 40px -7px #7090B0;
+            }
         }
-        .be-1{
-            margin: 16px 0 0 5px;
-            width: 60%;
-            height: 40px;
-            background: white;
-            border-radius: 5px;
-            border-color:#FF6700;
-            border-width: 1,5px;
-            font-size: 16px;
-            font-family: 'Raleway', sans-serif;
-            font-weight: 700;
-            box-shadow: 0px 10px 40px -7px #7090B0;
+        .help{ 
+            width: 50%;
+            padding: 0 0 0 80px;
+            
+            h2{
+                margin: 0 0 10px 0;
+                font-family: 'Oswald', sans-serif;
+                font-size: 40px;
+                font-weight: 100;
+            }
+            .p2{
+                margin: 0 auto;
+                font-family: 'Raleway', sans-serif;
+                font-size: 18px;
+                line-height: 140%;
+                color: #696969;
+    
+    
+            }
         }
-    }
-    .help{ 
-        padding: 0 0 50px 10px;
-        float: right;
-        h2{
-            margin: 0 0 10px 0;
-            font-family: 'Oswald', sans-serif;
-            font-size: 32px;
-            font-weight: 300;
-        }
-        .p2{
-            margin: 0 auto;
-            font-family: 'Raleway', sans-serif;
-            font-size: 16px;
-            color: #696969;
 
-
-        }
     }
+
 }
 .cards{
     margin: 0 auto;
@@ -223,9 +219,10 @@ nav{
        ul{ 
            text-align: start;
            list-style: none;
-           font-size: 16px;
+           font-size: 18px;
+           font-weight: 700;
            font-family: 'Raleway', sans-serif;
-           color: white;
+           color: lightgray;
            padding: 20px 0 0 0;
            hr{
                color: lightgray;
@@ -238,12 +235,13 @@ nav{
     position: relative;
     margin: 0 auto;
     max-width: 100%;
-    padding: 100px 50px 0 50px;
+    padding: 150px 200px;
     .foto3{
-        width: 60%;
+        width: 100%;
+        text-align: center;
     }
     .mtd{
-        width: 50%;
+        width: 100%;
     }
     .titu{
         margin: 0 auto;
@@ -257,14 +255,17 @@ nav{
         margin: 0 auto;
         font-family: 'Raleway', 'sans-serif';
         font-size: 18px;
+        line-height: 140%;
         color: #696969;
-        padding-top: 10px;
+        padding: 10px 0px; 
     }
     .pasos{
         list-style: square;
         margin: 0 auto;
         padding: 20px 0 0 30px;
         font-size: 30px;
+        line-height: 120%;
         color:#2e2e2e;
     }
 }
+
