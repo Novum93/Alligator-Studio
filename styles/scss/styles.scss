@@ -14,10 +14,11 @@
 .space{
     justify-content: space-around;
 }
-
-*{
-    box-sizing: border-box;
+.wrap{
+    flex-wrap: wrap;
 }
+
+
 $family-1:'Raleway', sans-serif;
 $family-2: 'Oswald', sans-serif;
 
@@ -44,109 +45,64 @@ nav{
         text-align: center;
         list-style: none;
         font-family: 'Raleway', sans-serif;
-        font-size: 20px;
-        margin: 0 auto;
+        font-size: 25px;
+        margin: 80px;
         position: relative;
-        padding: 50px;
         li{
-            margin: 0 20px;
+            margin: 0 50px;
             a{
                 text-decoration: none;
                 color: white;
             }
         }
     }
-    .social{
-        padding: 0;
-        .social-BTN{
-            margin: 0 5px 0 5px;
-            position: relative;
-            font-size: 20px;
-            color: white;
-        }
-    }
+
 }
 .titulo{
     width: 100%;
     position: relative;
     margin: 0 auto;
     text-align: center;
-    padding: 100px 0 200px 0;
-    font-family: 'Raleway', sans-serif;
-    .p1{
-        font-size: 30px;
-        font-style: italic;
-        color: #FF6700;
-        font-weight: 100;
-        margin: 10px 0 10px 0;
-    }
+    padding: 150px 0 300px 0;
+    
+    
     h1{
-        margin: 30px 30px;
+        margin: 0 auto;
+        padding: 32px 0px;
         font-size: 60px;
-        font-weight: 700;
         line-height: 120%;
-        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: #FF6700;
     }
-    .txt-1{
-        font-size: 20px;
-        line-height: 140%;
-        font-style: italic;
-        font-weight: 300;
-        color: lightgrey;
+    .social{
+        margin: 0 auto;
+        position: relative;
+        font-size: 32px;
+        .social-BTN{
+            text-decoration: none;
+            color: white;
+            padding: 0px 16px;
+        }
+        
     }
+    
 }
 .US{
     max-width: 100%;
     position: relative;
-    padding: 50px 0 200px 0;
-    .botones{
+    padding: 200px 0;
+    .txt-1{
         position: relative;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 50px;
+        line-height: 140%;
+        font-style: italic;
+        font-weight: 300;
+        color: #FF6700;
         padding: 50px;
-        .brain{
-            position: relative;
-            width: 20%;
-            height: 300px;
-            border-radius: 50%;
-            margin: 80px 50px;
-            background: transparent;
-            border-width: 3px;
-            border-color: #88B2E1;
-            i{
-                position: relative;
-                font-size: 100px;
-                color: #88B2E1;
-            }
-        }
-        .hand{
-            position: relative;
-            width: 18%;
-            height: 300px;
-            border-radius: 50%;
-            margin: 80px 50px;
-            background: transparent;
-            border-width: 3px;
-            border-color: #88B2E1;
-            i{
-                position: relative;
-                font-size: 100px;
-                color: #88B2E1;
-            }
-        }
-        .pen{
-            position: relative;
-            width: 18%;
-            height: 300px;
-            border-radius: 50%;
-            margin: 80px 50px;
-            background: transparent;
-            border-width: 3px;
-            border-color: #88B2E1;
-            i{
-                position: relative;
-                font-size: 100px;
-                color: #88B2E1;
-            }
-        }
     }
     .service {
         .Be{
@@ -196,7 +152,6 @@ nav{
         }
 
     }
-
 }
 .cards{
     margin: 0 auto;
@@ -268,4 +223,3 @@ nav{
         color:#2e2e2e;
     }
 }
-
