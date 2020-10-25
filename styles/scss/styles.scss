@@ -29,7 +29,7 @@ body{
     overflow-x: hidden;
 }
 .container{
-    background: url(/media/1.png) center no-repeat;
+    background-image: url(media/1.png) center no-repeat;
     max-width: 100%;
     /*height: 1084px;*/
     background-size: cover;
@@ -158,7 +158,7 @@ nav{
     margin: 0 auto;
     width: 100%;
     position: relative;
-    background-image: url(/media/2.png);
+    background-image: url(media/2.png);
     background-position: center;
    .card{
        margin: 0 100px;
