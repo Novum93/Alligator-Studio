@@ -45,6 +45,8 @@
 body {
   margin: 0 auto;
   padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
@@ -247,7 +249,7 @@ nav .menu li a {
 .metodo .titu {
   margin: 0 auto;
   padding: 30px 0 0 0;
-  font-size: 40px;
+  font-size: 50px;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   color: #0B478A;
@@ -269,6 +271,106 @@ nav .menu li a {
   font-size: 30px;
   line-height: 120%;
   color: #000F1F;
+}
+
+.galery {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 50px;
+  color: #0B478A;
+  margin: 20px 0;
+}
+
+.galeria {
+  width: 85%;
+  margin: auto;
+  padding: 40px 20px;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(768px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(768px, 1fr));
+  grid-gap: 15px;
+}
+
+.galeria img {
+  width: 100%;
+  vertical-align: top;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.galeria .effect {
+  margin: 16px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 10px #000F1F;
+          box-shadow: 0px 0px 10px #000F1F;
+}
+
+.galeria .effect:hover img {
+  -webkit-filter: blur(1.5px);
+          filter: blur(1.5px);
+  -webkit-transform: rotate(10deg) scale(1.3);
+          transform: rotate(10deg) scale(1.3);
+}
+
+.light-box {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  padding: 150px 0px;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  width: 100%;
+  height: 100vh;
+  z-index: 1000;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.light-box img {
+  width: 50vw;
+  max-height: 50vh;
+}
+
+.light-box .arrow {
+  display: block;
+  padding: 220px 50px;
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.light-box .close {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  color: #851919;
+  text-decoration: none;
+  font-size: 45px;
+}
+
+.light-box:target {
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .contact {
@@ -314,10 +416,6 @@ nav .menu li a {
   outline: none;
   border: 2px solid #C2C2C2;
   border-radius: 10px;
-}
-
-.contact .field input :focus, .contact .field textarea :focus {
-  border: 5px;
 }
 
 .contact .field abbr {
