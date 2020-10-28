@@ -127,6 +127,13 @@ nav{
                 color: $atention;
             }
             .be-1{
+                a{
+                    text-decoration: none;
+                    color: $quote;
+                    font-size: 25px;
+                    font-family: $family-1;
+                    font-weight: 700;
+                }
                 margin: 16px 0 0 5px;
                 width: 90%;
                 height: 50px;
@@ -134,10 +141,7 @@ nav{
                 border-radius: 10px;
                 border-color: $call;
                 border-width: 3.5px;
-                font-size: 25px;
-                font-family: $family-1;
-                font-weight: 700;
-                color: $quote;
+                
                 box-shadow: 0px 10px 40px -7px #7090B0;
             }
         }
@@ -237,6 +241,10 @@ nav{
         color: $quote;
     }
 }
+
+
+
+
 .contact{
     position: relative;
     margin: 0px;
@@ -249,17 +257,56 @@ nav{
         padding: 20px;
         font-family: $family-1;
     }
+    
     .title{
         font-size: 40px;
         font-weight: 100;
         line-height: 140%;
-        margin: 20px 0px;
+        margin: 0px;
         color: $atention;
     }
     .txt{
         font-size: 20px;
         margin: 16px 0px;
     }
-    
+    .field{
+        margin: 20px 0px;
+        font-size: 20px;
+        line-height: 140%;
+        font-weight: bold;
+        input, textarea{
+            padding: 16px;
+            margin: 5px 0px;
+            height: 20px;
+            resize: none;
+            outline: none;
+            border: 2px solid #C2C2C2; 
+            border-radius: 10px;
+            :focus{
+                border: 5px;
+            } 
+        }
+        abbr{
+            color: red;
+            font-size: 30px;
+        }
+        textarea{
+            height: 200px;
+        }
+    }
+    .send{
+        width: 80%;
+        height: 50px;
+        margin: 20px auto;
+        background: $text2;
+        border-radius: 10px;
+        border-color: $call;
+        border-width: 3.5px;
+        font-size: 20px;
+        font-family: $family-1;
+        font-weight: 700;
+        color: $quote;
+        box-shadow: 0px 10px 40px -7px #7090B0;
+    }
 }
 

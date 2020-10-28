@@ -62,8 +62,9 @@
                                 <div class="service flex row center items">
                                     <div class="Be">
                                         <p class="p-be">Be Smarter...<br/>Be Faster...<br/>Be mobile first!</p>
+                                        
                                         <button class="be-1">
-                                            Be Most!
+                                            <a href="#Contact">Be Most!</a>
                                         </button>
                                         
                                     </div>
@@ -149,7 +150,61 @@
             </section>
             <section>
                 <article id="Portfolio">
+                    <div class="portfolio">
+                        <div class="titu-controles">
+                            <h3>Portfolio</h3>
+                            <div class="bullets"></div>
+                        </div>
 
+                        <div class="contenedor-principal">
+                            <button role="button" id="F-izq" class="F-izq">
+                                <i class="fas fa-angle-left"></i>
+                            </button>
+
+                            <div class="contenedor-carrousel">
+                                <div class="carrousel">
+                                    <div class="trabajo">
+                                        <a href="#">
+                                            <img src="/media/port1.png" alt="webfolio N°1">
+                                        </a>
+                                    </div>
+                                    <div class="trabajo">
+                                        <a href="#">
+                                            <img src="/media/port2.png" alt="webfolio N°1">
+                                        </a>
+                                    </div>
+                                    <div class="trabajo">
+                                        <a href="#">
+                                            <img src="/media/port3.jpg" alt="webfolio N°1">
+                                        </a>
+                                    </div>
+                                    <div class="trabajo">
+                                        <a href="#">
+                                            <img src="/media/port4.png" alt="webfolio N°1">
+                                        </a>
+                                    </div>
+                                    <div class="trabajo">
+                                        <a href="#">
+                                            <img src="/media/port5.png" alt="webfolio N°1">
+                                        </a>
+                                    </div>
+                                    <div class="trabajo">
+                                        <a href="#">
+                                            <img src="/media/port6.png" alt="webfolio N°1">
+                                        </a>
+                                    </div>
+                                    
+                                </div>
+
+                                    
+                                </div>
+                            </div>
+
+                            <button role="button" id="F-der" class="F-der">
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                        </div>
+                    </div>
                 </article>
             </section>
             <section>
@@ -158,26 +213,20 @@
                         <Form class="Form flex column">
                             <h2 class="title">Contact Us!</h2>
                             <p class="txt">Do you have a project we can help you with? <br/>Do not hesitate to contact us, we are at your service</p>
-                            <div class="name flex column">
-                                <label for="Name"> Name*</label>
-                                <input type="text" value="Name" placeholder="Name">
+                            <div class="field flex column">
+                                <label for="Name"> Name  <abbr title="required" aria-label="required">*</abbr></label>
+                                <input type="text" value="Name" placeholder="">
                             </div>
-                            <div class="mail flex column">
-                                <label for="Mail"> Mail*</label>
-                                <input type="text" value="Mail" placeholder="Mail">
+                            <div class="field flex column">
+                                <label for="Mail"> Mail <abbr title="required" aria-label="required">*</abbr></label>
+                                <input type="text" value="Mail" placeholder="">
                             </div>
-                            <div class="phone flex column">
-                                <label for="Phone"> Phone*</label>
-                                <input type="number" value="Phone" placeholder="Phone number">
+    
+                            <div class="field flex column">
+                                <label for="textarea"> Tell Us about your project!  <abbr title="required" aria-label="required">*</abbr></label>
+                                <textarea></textarea>
                             </div>
-                            <div class="mssg flex column">
-                                <label for="textarea"> Tell Us about your project!</label>
-                                <textarea>Message</textarea>
-                            </div>
-                           
-                            
-                            
-                            <button>Send</button>
+                            <input class="send" type="submit" value="Send">
                         </Form>
                     </div>
                     
