@@ -194,6 +194,7 @@ nav .menu li a {
   position: relative;
   background: url(../../media/2.png);
   background-position: center;
+  padding: 80px 0px;
 }
 
 .cards .card {
@@ -210,16 +211,15 @@ nav .menu li a {
 
 .cards .card h3 {
   margin: 16px;
-  font-size: 32px;
+  font-size: 40px;
   font-family: "Oswald", sans-serif;
   color: white;
 }
 
 .cards .card ul {
-  text-align: start;
   list-style: none;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
   font-family: "Raleway", sans-serif;
   color: lightgray;
   padding: 20px 0 0 0;
@@ -227,14 +227,14 @@ nav .menu li a {
 
 .cards .card ul hr {
   color: lightgray;
-  margin: 15px 0 15px 0;
+  margin: 15px 0;
 }
 
 .metodo {
   position: relative;
   margin: 0 auto;
   max-width: 100%;
-  padding: 150px 200px;
+  padding: 250px 200px;
 }
 
 .metodo .foto3 {
@@ -264,13 +264,27 @@ nav .menu li a {
   padding: 10px 0px;
 }
 
+.metodo .coffe {
+  margin: 0 auto;
+  padding: 16px 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 140%;
+  color: #000F1F;
+}
+
 .metodo .pasos {
   list-style: square;
   margin: 0 auto;
   padding: 20px 0 0 30px;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 120%;
-  color: #000F1F;
+  color: #0B478A;
+}
+
+#Portfolio {
+  padding-bottom: 150px;
 }
 
 .galery {
@@ -334,10 +348,7 @@ nav .menu li a {
   top: 0px;
   left: 0px;
   background: rgba(0, 0, 0, 0.5);
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-  transition: -webkit-transform .3s ease-in-out;
-  transition: transform .3s ease-in-out;
-  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+  /* transition: transform .5s ease-in-out; */
   width: 100%;
   height: 100vh;
   z-index: 1000;
@@ -377,6 +388,7 @@ nav .menu li a {
   position: relative;
   margin: 0px;
   width: 50%;
+  padding-bottom: 200px;
 }
 
 .contact .Form {
@@ -425,6 +437,7 @@ nav .menu li a {
 
 .contact .field textarea {
   height: 200px;
+  margin-bottom: 100px;
 }
 
 .contact .send {
@@ -441,5 +454,108 @@ nav .menu li a {
   color: #000F1F;
   -webkit-box-shadow: 0px 10px 40px -7px #7090B0;
           box-shadow: 0px 10px 40px -7px #7090B0;
+}
+
+.footer {
+  width: 100%;
+  position: relative;
+  margin: 0px;
+  background-color: #212121;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer .part-1 {
+  position: relative;
+  margin: 0 auto;
+  width: 33%;
+  padding: 50px 50px;
+  border-left: 2.5px solid white;
+  border-right: 2.5px solid white;
+}
+
+.footer .part-1 .caja {
+  text-align: center;
+}
+
+.footer .part-1 .gator {
+  margin: 16px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 32px;
+  color: #FF6700;
+}
+
+.footer .part-1 .follow {
+  margin: 16px 0;
+  text-align: center;
+  color: #88B2E1;
+  font-size: 25px;
+}
+
+.footer .part-1 .social {
+  margin: 16px 0px;
+  padding: 0 150px;
+  font-size: 32px;
+}
+
+.footer .part-1 .social .social-BTN {
+  text-decoration: none;
+  color: white;
+  padding: 0 20px;
+}
+
+.footer .part-2 {
+  position: relative;
+  margin: 0px;
+  width: 33%;
+  padding: 120px 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer .part-2 .us-foot {
+  margin: 0px;
+  padding: 16px;
+  color: #88B2E1;
+  font-size: 32px;
+}
+
+.footer .part-2 .us-2 {
+  margin: 16px 0px;
+  padding: 0px 16px;
+  font-size: 20px;
+  color: white;
+}
+
+.footer .part-3 {
+  position: relative;
+  margin: 0px;
+  width: 33%;
+  padding: 100px 50px;
+}
+
+.footer .part-3 .data {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.footer .part-3 .icon {
+  font-size: 40px;
+  color: white;
+  padding: 20px;
+}
+
+.footer .part-3 .H {
+  font-size: 25px;
+  font-weight: 100;
+  margin: 0px;
+  padding-top: 10px;
+  color: #88B2E1;
+}
+
+.footer .part-3 .P {
+  margin: 5px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
 }
 /*# sourceMappingURL=styles.css.map */
