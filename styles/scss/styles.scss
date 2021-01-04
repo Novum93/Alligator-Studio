@@ -1,3 +1,5 @@
+
+/* flexbox */
 .flex{
     display: flex;
 }
@@ -20,9 +22,12 @@
 .column{
     flex-flow: column;
 }
+
+/* Assets */
 $family-1:'Raleway', sans-serif;
 $family-2: 'Oswald', sans-serif;
 $family-3: 'Montserrat', sans-serif;
+
 $text: #434343;
 $text2: white;
 $call: #FF6700;
@@ -30,6 +35,12 @@ $foot:#88B2E1;
 $atention: #0B478A;
 $quote: #000F1F;
 $close: #851919;
+
+$mobile:375px;
+$screen:1024px;
+
+
+/* 1920 x 1080 */
 body{
     margin: 0 auto;
     padding: 0%;
@@ -488,5 +499,12 @@ nav{
     }
    }
 
+}
+
+/* mediaquerys */
+@media (min-width: $mobile) and (max-width: $screen){
+
+ 
+   
 }
 
